@@ -10777,7 +10777,7 @@ var meleeRangeWeapons = {
 					}]
 				}]
 			}]
-		}{id:"39", /*Assault squad*/
+		},{id:"39", /*Assault squad*/
 			 role:"fast",
 			 armyCode:"DA",
 			 name:"Assault squad",
