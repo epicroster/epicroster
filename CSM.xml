@@ -1,3 +1,4 @@
+<body>
 <army>
   <armyName>Chaos Space Marine</armyName>
   <armyCode>CSM</armyCode>
@@ -22184,3 +22185,4 @@
     </models>
   </units>
 </army>
+</body>
