@@ -1,46 +1,5 @@
 <body>
 <army>
-  <armyName>Chaos Space Marine</armyName>
-  <armyCode>CSM</armyCode>
-  <countConditions>
-    <hq>
-      <min>1</min>
-      <max>2</max>
-      <minError>you need at least one HQ unit</minError>
-      <maxError>you can't have more then two HQ units</maxError>
-    </hq>
-    <troops>
-      <min>2</min>
-      <max>6</max>
-      <minError>you have to take at least two troops choise</minError>
-      <maxError>you can't have more then six troops units</maxError>
-    </troops>
-    <fast>
-      <min>0</min>
-      <max>3</max>
-      <minError>same system Error</minError>
-      <maxError>you can't have more then three fast units</maxError>
-    </fast>
-    <elite>
-      <min>0</min>
-      <max>3</max>
-      <minError>same system Error</minError>
-      <maxError>you can't have more then three elite units</maxError>
-    </elite>
-    <heavy>
-      <min>0</min>
-      <max>3</max>
-      <minError>same system Error</minError>
-      <maxError>you can't have more then three heavy units</maxError>
-    </heavy>
-    <fort>
-      <min>0</min>
-      <max>3</max>
-      <minError>same system Error</minError>
-      <maxError>you can't have more then three heavy units</maxError>
-    </fort>
-  </countConditions>
-  <units>
-  </units>
 </army>
+
 </body>
