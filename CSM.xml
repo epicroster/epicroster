@@ -1,4 +1,3 @@
-<army>
   <armyName>Chaos Space Marine</armyName>
   <armyCode>CSM</armyCode>
   <alliancesList>
@@ -22183,5 +22182,4 @@
       </upgrades>
     </models>
   </units>
-</army>
 
