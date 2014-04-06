@@ -11747,7 +11747,7 @@
         <name>Move Through Cover</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Stealth (Ruin)</name>
@@ -11818,7 +11818,7 @@
         <name>Move Through Cover</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Stealth (Ruin)</name>
@@ -16001,7 +16001,7 @@
           <quantity>0</quantity>
           <display>checkbox</display>
           <available>true</available>
-          <name>Missile Silo(Frag&Krak)</name>
+          <name>Missile Silo(Frag And Krak)</name>
           <cost>30</cost>
           <counterManager>
             <type>static</type>

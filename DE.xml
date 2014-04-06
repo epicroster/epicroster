@@ -5103,7 +5103,7 @@
         <name>Furious Charge</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Fleet</name>
@@ -5377,7 +5377,7 @@
         <name>Furious Charge</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Fleet</name>
@@ -5501,7 +5501,7 @@
         <name>Furious Charge</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Fleet</name>
@@ -5651,7 +5651,7 @@
         <name>Furious Charge</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Fleet</name>
@@ -12806,7 +12806,7 @@
           <quantity>0</quantity>
           <display>checkbox</display>
           <available>true</available>
-          <name>Missile Silo(Frag&Krak)</name>
+          <name>Missile Silo(Frag And Krak)</name>
           <cost>30</cost>
           <counterManager>
             <type>static</type>

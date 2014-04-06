@@ -155,7 +155,7 @@
         <name>Fearless</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Martyrdom</name>
@@ -5559,7 +5559,7 @@
         <name>Act Of Faith</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Angelic Visage</name>
@@ -5716,7 +5716,7 @@
         <name>Act Of Faith</name>
       </specialRules>
       <specialRules>
-        <name>Hit & Run</name>
+        <name>Hit And Run</name>
       </specialRules>
       <specialRules>
         <name>Angelic Visage</name>
@@ -8140,7 +8140,7 @@
           <quantity>0</quantity>
           <display>checkbox</display>
           <available>true</available>
-          <name>Missile Silo(Frag&Krak)</name>
+          <name>Missile Silo(Frag And Krak)</name>
           <cost>30</cost>
           <counterManager>
             <type>static</type>

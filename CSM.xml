@@ -22104,7 +22104,7 @@
           <quantity>0</quantity>
           <display>checkbox</display>
           <available>true</available>
-          <name>Missile Silo(Frag&amp;Krak)</name>
+          <name>Missile Silo(Frag and Krak)</name>
           <cost>30</cost>
           <counterManager>
             <type>static</type>
