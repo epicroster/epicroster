@@ -1,10 +1,13 @@
 <descriptions>
-  <name>Terminator Armour</name>
-  <description>2+ save and 5+ invulnerable save</description>
-  <smallDesc>Terminator Armour</smallDesc>
+  <description>
+    <name>Terminator Armour</name>
+    <description>2+ save and 5+ invulnerable save</description>
+    <smallDesc>Terminator Armour</smallDesc>
+  </description>
+  <description>
+    <name>Power Armour</name>
+    <description>3+ save</description>
+    <smallDesc>Power Armour</smallDesc>
+  </description>
 </descriptions>
-<descriptions>
-  <name>Power Armour</name>
-  <description>3+ save</description>
-  <smallDesc>Power Armour</smallDesc>
-</descriptions>
+  
