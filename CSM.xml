@@ -158,7 +158,7 @@
       <name>Chaos Space Marines</name>
       <enable>true</enable>
       <type>infantry</type>
-      <cost>13</cost>
+      <cost>15</cost>
       <count>4</count>
       <minCount>4</minCount>
       <maxCount>19</maxCount>
