@@ -2661,7 +2661,7 @@
 			<In>3</In>
 			<At>2</At>
 			<Ld>8</Ld>
-			<save>3</save>
+			<save>6</save>
 			<specialRules>
 				<name>Champion of Chaos</name>
 			</specialRules>
@@ -2728,7 +2728,7 @@
 		<models>
 			<id>1</id>
 			<role>troops</role>
-			<name>Chaos Cultists</name>
+			<name>Zombie Cultists</name>
 			<enable>true</enable>
 			<type>infantry</type>
 			<cost>4</cost>
@@ -2765,7 +2765,7 @@
 			<In>3</In>
 			<At>2</At>
 			<Ld>8</Ld>
-			<save>3</save>
+			<save>6</save>
 			<specialRules>
 				<name>Champion of Chaos</name>
 			</specialRules>
