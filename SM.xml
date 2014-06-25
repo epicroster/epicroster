@@ -3596,7 +3596,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -3638,7 +3638,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -3796,7 +3796,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -3838,7 +3838,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -6197,7 +6197,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -6239,7 +6239,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -6397,7 +6397,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -6439,7 +6439,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -10103,7 +10103,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -10145,7 +10145,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -10303,7 +10303,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -10345,7 +10345,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -12707,7 +12707,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -12749,7 +12749,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -12907,7 +12907,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -12949,7 +12949,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -16180,7 +16180,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -16222,7 +16222,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -16464,7 +16464,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -16506,7 +16506,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -21721,7 +21721,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -21763,7 +21763,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -21921,7 +21921,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -21963,7 +21963,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -23096,7 +23096,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -23138,7 +23138,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -23296,7 +23296,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Storm bolter</name>
-					<cost>10</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -23338,7 +23338,7 @@
 					<available>true</available>
 					<name>Extra armour</name>
 					<description>See codex book</description>
-					<cost>15</cost>
+					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
