@@ -2501,7 +2501,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Master Of Runes</name>
-					<cost>50</cost>
+					<cost>25</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -2735,7 +2735,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Master Of Runes</name>
-					<cost>50</cost>
+					<cost>25</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
