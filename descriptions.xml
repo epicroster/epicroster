@@ -4365,20 +4365,13 @@
 		<smallDesc>Prophet Of The Waaagh!</smallDesc>
 	</descriptions>
 	<descriptions>
-		<changes>
-			<descriptions>
-				<operation>equal</operation>
-				<statName>invSave</statName>
-				<value>5</value>
-			</descriptions>
-		</changes>
-		<description>5+ Invulnerable save</description>
+		<description>6+ Feel no Pain</description>
 		<name>Cybork Body</name>
 		<smallDesc>Cybork Body</smallDesc>
 		<type>stat</type>
 	</descriptions>
 	<descriptions>
-		<description>Each time a unit with a Bosspole fails a Morale test you may choose to inflict a wound on that unit (not on the model with the Bosspole) in order to re-roll that Morale test.</description>
+		<description>Re-roll any result on the Mob Rule table.</description>
 		<name>Bosspole</name>
 		<smallDesc>Bosspole</smallDesc>
 	</descriptions>
@@ -4460,7 +4453,7 @@
 		<smallDesc>Mek's Tools</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>May re-roll dice for Psychic powers</description>
+		<description>Psyker Master Level 2</description>
 		<name>Warphead</name>
 		<smallDesc>Warphead</smallDesc>
 	</descriptions>
@@ -4537,14 +4530,7 @@
 		<type>stat</type>
 	</descriptions>
 	<descriptions>
-		<changes>
-			<descriptions>
-				<operation>plus</operation>
-				<statName>At</statName>
-				<value>1</value>
-			</descriptions>
-		</changes>
-		<description>+1 Attack</description>
+		<description>Re-roll one To Hit roll in close combat</description>
 		<name>Attack Squig</name>
 		<smallDesc>Attack Squig</smallDesc>
 		<type>stat</type>
@@ -4568,7 +4554,7 @@
 		<smallDesc>Shokk Attack Gun</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>All units within 6&amp;quot gain 5+ cover save. Vehicles are counted as obscured and have 5+ cover save.</description>
+		<description>All units within 6&amp;quot gain 5+ inv save.</description>
 		<name>Kustom Force Field</name>
 		<smallDesc>Kustom Force Field</smallDesc>
 	</descriptions>
@@ -4616,17 +4602,17 @@
 		<smallDesc>Grot Orderly</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>If vehicle is explosed or wrecked, roll on the following table and apply the result instead of usual effects. If the Vehicle suffers more than one Destroyed result, roll one duce per result, but apply the lowest:; 1-2: Kaboom! - Trukk is destroyed. All passengers must disembark and take a Pinning test.; 3-4: Kareen! - Move truck 3D6 as far as possible in a direction rolled by scatter dice (the Ork player chooses if a Hit is rolled). Then apply the Kaboom! result above.; 5-6 Kerrunch! - The Ork passengers take no damage but must immediately disembark. The Trukk is wrecked</description>
+		<description>On the roll of a 6, the Trukk only suffers a glancing hit instead Penetrating</description>
 		<name>Ramshackle</name>
 		<smallDesc>Ramshackle</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>+1&amp;quot move that does not incur penalties for this extra inch (vehicle that is moving 13&amp;quot count as moving 12&amp;quot)</description>
+		<description>+1&amp; to their move when they move Flat Out</description>
 		<name>Red Paint Job</name>
 		<smallDesc>Red Paint Job</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>In the Shooting phase may try to repair immobilised result on a roll of 4+</description>
+		<description>Will Not Die special rule</description>
 		<name>Grot Riggers</name>
 		<smallDesc>Grot Riggers</smallDesc>
 	</descriptions>
@@ -4641,12 +4627,12 @@
 		<smallDesc>Armour Plates</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>A single embarked Ork may make close combat attacks against an enemy vehicle within 2&amp;quot, provided neither vehicle has moved more than 12&amp;quot</description>
+		<description>+2 to charge distance</description>
 		<name>Boarding Plank</name>
 		<smallDesc>Boarding Plank</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>Causes S:9 hit upon one unengaged enemy unit within 2&amp;quot of the wreckin' ball at the beginning of the Assault phase on the roll of 4+. May not be used, if the vehicle has moved more than 12&amp;quot that turn.</description>
+		<description>3&amp;quot S:9 AP:4, Assault D3</description>
 		<name>Wreckin' Ball</name>
 		<smallDesc>Wreckin' Ball</smallDesc>
 	</descriptions>
@@ -4727,17 +4713,17 @@
 		<smallDesc>Glory Hogs</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>Grenades; Assault: (against Vehicles): S:6 AP:-, Armourbane</description>
+		<description>Grenades; Assault: (against Vehicles): S:8 AP:1, Armourbane</description>
 		<name>Tankbusta Bombz</name>
 		<smallDesc>Tankbusta Bombz</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>A Tunkbusta may release a bomb-squig instead of shooing. On a roll of 2+ squig will strike the nearest enemy vehicle within 18&amp;quot, causing S:8 hit on the section of the vehicle facing the Tankbusta. On a rool of 1 squigs attacks the nearest friendly vehicle within 18&amp;quot instead. Each squig is one-time use only.</description>
+		<description>18&amp;quot S:8 AP:4, Assault 1. Each squig is one-time use only.</description>
 		<name>Bomb Squigs</name>
 		<smallDesc>Bomb Squigs</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>Two-handed close combat weapon. Has S:10 in assault phase</description>
+		<description>S:8 AP:3, Melee, Two-handed, Unwieldy</description>
 		<name>Tankhammer</name>
 		<smallDesc>Tankhammer</smallDesc>
 	</descriptions>
@@ -4757,7 +4743,7 @@
 		<smallDesc>Killa Reputation</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>2 Close combat weapons; May re-roll all to-hit rolls in close combat</description>
+		<description>S:U AP:5, Melee, Shred</description>
 		<name>Mork's Teeth</name>
 		<smallDesc>Mork's Teeth</smallDesc>
 	</descriptions>
@@ -4801,7 +4787,7 @@
 		<smallDesc>Boss Zagstruk</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>Unit counts as jump infantry; Every time the Stormboyz unit utilises its rokkit packs to move or fall back, roll a D6. On the roll of 1, one model with rokkit pack is removed as casualty. Regardless of the result you may add the number rolled to the ammount the unit moves that turn.</description>
+		<description>Run 2D6" in the Shooting phase.</description>
 		<name>Rokkit Pack</name>
 		<smallDesc>Rokkit Pack</smallDesc>
 	</descriptions>
@@ -4918,7 +4904,7 @@
 		<smallDesc>Snazzgun</smallDesc>
 	</descriptions>
 	<descriptions>
-		<description>Flash Gitz' shooting weapons gain Ignores Cover special rule</description>
+		<description>Ballistic Skill 3 if unit didn't move</description>
 		<name>Gitfinda</name>
 		<smallDesc>Gitfinda</smallDesc>
 	</descriptions>
