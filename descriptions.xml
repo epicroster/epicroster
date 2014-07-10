@@ -4533,7 +4533,6 @@
 		<description>Re-roll one To Hit roll in close combat</description>
 		<name>Attack Squig</name>
 		<smallDesc>Attack Squig</smallDesc>
-		<type>stat</type>
 	</descriptions>
 	<descriptions>
 		<changes>
