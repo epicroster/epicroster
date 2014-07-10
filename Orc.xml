@@ -2420,7 +2420,7 @@
 					<quantity>1</quantity>
 					<display>checkbox</display>
 					<available>false</available>
-					<name>Slagga</name>
+					<name>Slugga</name>
 					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
@@ -4654,7 +4654,7 @@
 					<quantity>0</quantity>
 					<display>checkbox</display>
 					<available>true</available>
-					<name>Big Choopa</name>
+					<name>Big Choppa</name>
 					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
@@ -11364,7 +11364,7 @@
 					<quantity>2</quantity>
 					<available>true</available>
 					<display>multi</display>
-					<name>Power Claw</name>
+					<name>Power Klaw</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
