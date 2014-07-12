@@ -8390,7 +8390,7 @@
 					<display>multi</display>
 					<available>true</available>
 					<name>Twin-linked Rokkit Launcha</name>
-					<cost>10</cost>
+					<cost>0</cost>
 					<counterManager>
 						<modelId>1</modelId>
 						<type>dependOnModelCount</type>
