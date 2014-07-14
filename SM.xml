@@ -6634,13 +6634,13 @@
 		<id>19</id>
 		<role>hq</role>
 		<armyCode>SM</armyCode>
-		<name>Labrarian</name>
+		<name>Librarian</name>
 		<icon>images/Icons/SpaceMarinesVanilla/HQ/Labrarian.png</icon>
 		<upgrades />
 		<models>
 			<id>2</id>
 			<role>hq</role>
-			<name>Labrarian</name>
+			<name>Librarian</name>
 			<enable>true</enable>
 			<type>infantry</type>
 			<cost>65</cost>
