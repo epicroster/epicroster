@@ -124,7 +124,6 @@
 		<role>hq</role>
 		<name>Chaos Lord</name>
 		<armyCode>CSM</armyCode>
-		<IAFlag>on</IAFlag>
 		<models>
 			<id>1</id>
 			<type>infantry</type>
