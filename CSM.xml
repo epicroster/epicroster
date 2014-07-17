@@ -1,129 +1,12 @@
 <army>
 	<armyName>Chaos Space Marine</armyName>
 	<armyCode>CSM</armyCode>
-	<alliancesList>
-		<armyCode>BA</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>CSM</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>DA</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>DE</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Dem</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Eld</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>GK</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>IG</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Nec</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Orc</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>SM</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>SoB</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>SW</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Tau</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Tyr</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<alliancesList>
-		<armyCode>Inq</armyCode>
-		<relationCode>Bro</relationCode>
-		<relationName>Battle Brothers</relationName>
-	</alliancesList>
-	<countConditions>
-		<hq>
-			<min>1</min>
-			<max>2</max>
-			<minError>you need at least one HQ unit</minError>
-			<maxError>you can't have more then two HQ units</maxError>
-		</hq>
-		<troops>
-			<min>2</min>
-			<max>6</max>
-			<minError>you have to take at least two troops choise</minError>
-			<maxError>you can't have more then six troops units</maxError>
-		</troops>
-		<fast>
-			<min>0</min>
-			<max>3</max>
-			<minError>same system Error</minError>
-			<maxError>you can't have more then three fast units</maxError>
-		</fast>
-		<elite>
-			<min>0</min>
-			<max>3</max>
-			<minError>same system Error</minError>
-			<maxError>you can't have more then three elite units</maxError>
-		</elite>
-		<heavy>
-			<min>0</min>
-			<max>3</max>
-			<minError>same system Error</minError>
-			<maxError>you can't have more then three heavy units</maxError>
-		</heavy>
-		<fort>
-			<min>0</min>
-			<max>3</max>
-			<minError>same system Error</minError>
-			<maxError>you can't have more then three heavy units</maxError>
-		</fort>
-	</countConditions>
 	<units>
 		<id>33</id>
 		<role>hq</role>
 		<name>Chaos Lord</name>
 		<armyCode>CSM</armyCode>
+		<IAFlag>false</IAFlag>
 		<models>
 			<id>1</id>
 			<type>infantry</type>
@@ -141,7 +24,8 @@
 			<In>5</In>
 			<Ld>10</Ld>
 			<save>3</save>
-			<enable>on</enable>
+			<invSave />
+			<modelType />
 			<upgrades>
 				<id>1</id>
 				<type>static</type>
@@ -151,12 +35,25 @@
 					<minCount>2</minCount>
 					<maxCount>2</maxCount>
 				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<stuff>
 					<id>2</id>
 					<name>Frag Grenades</name>
 					<display>checkbox</display>
 					<quantity>1</quantity>
 					<cost>0</cost>
+					<value />
+					<available>false</available>
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>1</minCount>
@@ -169,17 +66,26 @@
 					<display>checkbox</display>
 					<quantity>1</quantity>
 					<cost>0</cost>
+					<value />
+					<available>false</available>
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>1</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>2</id>
 				<type>static</type>
 				<label>Wargear</label>
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<counterManager>
 					<type>static</type>
 					<minCount>1</minCount>
@@ -191,12 +97,16 @@
 					<display>checkbox</display>
 					<quantity>1</quantity>
 					<cost>0</cost>
+					<value />
+					<available>false</available>
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>1</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>3</id>
@@ -207,12 +117,89 @@
 					<minCount>2</minCount>
 					<maxCount>2</maxCount>
 				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<stuff>
 					<id>1</id>
 					<name>Close Combat Weapon</name>
 					<display>checkbox</display>
 					<quantity>1</quantity>
 					<cost>0</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -225,6 +212,8 @@
 					<display>checkbox</display>
 					<quantity>1</quantity>
 					<cost>0</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -237,6 +226,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>8</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -249,6 +240,8 @@
 					<display>multi</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -261,6 +254,8 @@
 					<display>multi</display>
 					<quantity>0</quantity>
 					<cost>25</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -273,6 +268,8 @@
 					<display>multi</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -285,6 +282,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>45</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -297,6 +296,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>35</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -309,6 +310,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>35</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -321,6 +324,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>30</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -333,6 +338,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>3</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -345,6 +352,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>10</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -357,6 +366,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>10</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -369,6 +380,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>10</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -381,17 +394,40 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>5</id>
 				<type>static</type>
 				<label>Mark Of Chaos</label>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<counterManager>
 					<type>static</type>
 					<minCount>0</minCount>
@@ -403,6 +439,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>10</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -415,6 +453,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -427,6 +467,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -439,17 +481,50 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>15</id>
 				<type>static</type>
 				<label>Daemonic Steeds</label>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<counterManager>
 					<type>static</type>
 					<minCount>0</minCount>
@@ -461,6 +536,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>35</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -473,6 +550,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>30</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -485,6 +564,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>40</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -497,6 +578,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>20</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -509,6 +592,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>20</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -521,12 +606,15 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>14</id>
@@ -537,12 +625,39 @@
 					<minCount>0</minCount>
 					<maxCount>5</maxCount>
 				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<stuff>
 					<id>1</id>
 					<name>Ichor Blood</name>
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>5</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -555,6 +670,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>10</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -567,6 +684,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>10</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -579,6 +698,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -591,12 +712,15 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>15</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>17</id>
@@ -607,12 +731,29 @@
 					<minCount>0</minCount>
 					<maxCount>3</maxCount>
 				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<stuff>
 					<id>1</id>
 					<name>Blight grenade</name>
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>5</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -625,6 +766,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>5</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -637,17 +780,30 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>25</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>16</id>
 				<type>static</type>
 				<label>Chaos Artefacts</label>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<counterManager>
 					<type>static</type>
 					<minCount>0</minCount>
@@ -659,6 +815,8 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>25</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
@@ -671,17 +829,25 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>45</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<upgrades>
 				<id>18</id>
 				<type>static</type>
 				<label>Veterans</label>
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
 				<counterManager>
 					<type>static</type>
 					<minCount>0</minCount>
@@ -693,12 +859,15 @@
 					<display>checkbox</display>
 					<quantity>0</quantity>
 					<cost>5</cost>
+					<value />
+					<groupElements />
 					<counterManager>
 						<type>static</type>
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
+				<conditions />
 			</upgrades>
 			<specialRules>
 				<name>Independent Character</name>
@@ -710,5 +879,848 @@
 				<name>Fearless</name>
 			</specialRules>
 		</models>
+		<upgrades>
+			<id>1</id>
+			<type>static</type>
+			<label>Grenades</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>2</minCount>
+				<maxCount>2</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>1</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>1</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>2</id>
+				<name>Frag Grenades</name>
+				<display>checkbox</display>
+				<quantity>1</quantity>
+				<cost>0</cost>
+				<value />
+				<available>false</available>
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>3</id>
+				<name>Krak Grenades</name>
+				<display>checkbox</display>
+				<quantity>1</quantity>
+				<cost>0</cost>
+				<value />
+				<available>false</available>
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>2</id>
+			<type>static</type>
+			<label>Wargear</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>1</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>1</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Power armour</name>
+				<display>checkbox</display>
+				<quantity>1</quantity>
+				<cost>0</cost>
+				<value />
+				<available>false</available>
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>3</id>
+			<type>static</type>
+			<label>Weapons</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>2</minCount>
+				<maxCount>2</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>2</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>2</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>2</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Close Combat Weapon</name>
+				<display>checkbox</display>
+				<quantity>1</quantity>
+				<cost>0</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>2</id>
+				<name>Bolt Pistol</name>
+				<display>checkbox</display>
+				<quantity>1</quantity>
+				<cost>0</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>3</id>
+				<name>Chainaxe</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>8</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>4</id>
+				<name>Lightning Claw</name>
+				<display>multi</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>5</id>
+				<name>Power Fist</name>
+				<display>multi</display>
+				<quantity>0</quantity>
+				<cost>25</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>6</id>
+				<name>Power Weapon</name>
+				<display>multi</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>20</id>
+				<name>The Black Mace</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>45</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>21</id>
+				<name>Axe Of Blind Fury</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>35</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>22</id>
+				<name>The Murder Sword</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>35</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>23</id>
+				<name>Burning Brand Of Skalathrax</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>30</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>10</id>
+				<name>Combi-bolter</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>3</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>11</id>
+				<name>Combi-flamer</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>10</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>12</id>
+				<name>Combi-melta</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>10</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>13</id>
+				<name>Combi-plasma</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>10</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>14</id>
+				<name>Plasma Pistol</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>5</id>
+			<type>static</type>
+			<label>Mark Of Chaos</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Mark of Khorne</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>10</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>2</id>
+				<name>Mark of Tzeentch</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>3</id>
+				<name>Mark of Nurgle</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>4</id>
+				<name>Mark of Slaanesh</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>15</id>
+			<type>static</type>
+			<label>Daemonic Steeds</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Juggernaut of Khorne</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>35</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>2</id>
+				<name>Disc Of Tzeentch</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>30</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>3</id>
+				<name>Palanquin Of Nurgle</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>40</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>4</id>
+				<name>Steed Of Slaanesh</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>20</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>5</id>
+				<name>Chaos Bike</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>20</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>6</id>
+				<name>Jump Pack</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>14</id>
+			<type>static</type>
+			<label>Chaos Rewards</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>5</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Ichor Blood</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>5</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>2</id>
+				<name>Gift Of Mutation</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>10</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>3</id>
+				<name>Aura Of Dark Glory</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>10</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>4</id>
+				<name>Combat Familiar</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>5</id>
+				<name>Spell Familiar</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>15</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>17</id>
+			<type>static</type>
+			<label>Special Wargear</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>3</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Blight grenade</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>5</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>2</id>
+				<name>Melta Bomb</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>5</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>3</id>
+				<name>Sigil Of Corruption</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>25</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>16</id>
+			<type>static</type>
+			<label>Chaos Artefacts</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Dimensional Key</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>25</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<stuff>
+				<id>2</id>
+				<name>Scroll Of Magnus</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>45</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
+		<upgrades>
+			<id>18</id>
+			<type>static</type>
+			<label>Veterans</label>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<counterManager>
+				<type>static</type>
+				<minCount>0</minCount>
+				<maxCount>1</maxCount>
+			</counterManager>
+			<stuff>
+				<id>1</id>
+				<name>Veterans Of The Long War</name>
+				<display>checkbox</display>
+				<quantity>0</quantity>
+				<cost>5</cost>
+				<value />
+				<groupElements />
+				<counterManager>
+					<type>static</type>
+					<minCount>0</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+			</stuff>
+			<conditions />
+		</upgrades>
 	</units>
 </army>
