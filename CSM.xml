@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <army>
 	<armyName>Chaos Space Marine</armyName>
 	<armyCode>CSM</armyCode>
@@ -639,24 +640,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -877,8 +1038,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -2426,24 +2598,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -3095,24 +3427,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -3278,8 +3770,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -4116,24 +4619,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>5</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -4349,8 +5012,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -5210,8 +5884,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -6951,8 +7636,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -8344,8 +9040,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -9156,24 +9863,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>5</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>8</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -9208,8 +10075,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -9932,24 +10810,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>5</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -10125,8 +11163,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -11441,24 +12490,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -11634,8 +12843,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -12039,24 +13259,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -12326,24 +13706,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -12534,8 +14074,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -13009,24 +14560,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -13081,8 +14792,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -13721,24 +15443,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>2</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -13904,8 +15786,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
@@ -14649,24 +16542,184 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>1</id>
+					<name>Mark of Khorne</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>4</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>2</id>
+					<name>Mark of Tzeentch</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>8</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>3</id>
+					<name>Mark of Nurgle</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>6</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<stuff>
-					<available>false</available>
-					<counterManager />
-					<conditions />
+					<id>4</id>
+					<name>Mark of Slaanesh</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>1</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>2</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
+					<conditions>
+						<id>3</id>
+						<type>dependOnUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+						<value />
+						<con />
+						<field />
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -14701,8 +16754,19 @@
 					</countSet>
 				</setCounter>
 				<stuff>
-					<available>false</available>
-					<counterManager />
+					<id>1</id>
+					<name>Veterans Of The Long War</name>
+					<display>checkbox</display>
+					<quantity>0</quantity>
+					<cost>3</cost>
+					<value />
+					<available>true</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>0</minCount>
+						<maxCount>0</maxCount>
+					</counterManager>
 					<conditions />
 				</stuff>
 				<conditions />
