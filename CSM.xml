@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <army>
 	<armyName>Chaos Space Marine</armyName>
 	<armyCode>CSM</armyCode>
@@ -50,6 +51,7 @@
 						<minCount>1</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>3</id>
@@ -65,6 +67,7 @@
 						<minCount>1</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>false</available>
@@ -92,6 +95,7 @@
 						<minCount>1</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -119,6 +123,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>2</id>
@@ -134,6 +139,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>3</id>
@@ -149,6 +155,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>4</id>
@@ -164,6 +171,7 @@
 						<minCount>0</minCount>
 						<maxCount>2</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>5</id>
@@ -179,6 +187,7 @@
 						<minCount>0</minCount>
 						<maxCount>2</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>6</id>
@@ -194,6 +203,7 @@
 						<minCount>0</minCount>
 						<maxCount>2</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>20</id>
@@ -209,6 +219,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>21</id>
@@ -224,6 +235,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>6</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+					</conditions>
 				</stuff>
 				<stuff>
 					<id>22</id>
@@ -239,6 +257,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>23</id>
@@ -254,6 +273,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>10</id>
@@ -269,6 +289,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>11</id>
@@ -284,6 +305,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>12</id>
@@ -299,6 +321,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>13</id>
@@ -314,6 +337,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>14</id>
@@ -329,6 +353,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -356,6 +381,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>2</id>
@@ -371,6 +397,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>3</id>
@@ -386,6 +413,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>4</id>
@@ -401,6 +429,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -428,6 +457,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>1</stuffId>
+					</conditions>
 				</stuff>
 				<stuff>
 					<id>2</id>
@@ -443,6 +479,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+					</conditions>
 				</stuff>
 				<stuff>
 					<id>3</id>
@@ -458,6 +501,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+					</conditions>
 				</stuff>
 				<stuff>
 					<id>4</id>
@@ -473,6 +523,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>4</stuffId>
+					</conditions>
 				</stuff>
 				<stuff>
 					<id>5</id>
@@ -488,6 +545,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>6</id>
@@ -503,6 +561,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -530,6 +589,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>2</id>
@@ -545,6 +605,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>3</id>
@@ -560,6 +621,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>4</id>
@@ -575,6 +637,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>5</id>
@@ -590,6 +653,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -617,6 +681,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>1</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>3</stuffId>
+					</conditions>
 				</stuff>
 				<stuff>
 					<id>2</id>
@@ -632,6 +703,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>3</id>
@@ -647,6 +719,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -674,6 +747,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<stuff>
 					<id>2</id>
@@ -689,6 +763,13 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions>
+						<id>10</id>
+						<type>isUpgradeChecked</type>
+						<modelId>1</modelId>
+						<upgradeId>5</upgradeId>
+						<stuffId>2</stuffId>
+					</conditions>
 				</stuff>
 				<conditions />
 				<available>true</available>
@@ -716,6 +797,7 @@
 						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
+					<conditions />
 				</stuff>
 				<conditions />
 				<available>true</available>
