@@ -24184,14 +24184,14 @@
 			<save>2</save>
 			<invSave />
 			<modelType />
-			<enable>false</enable>
+			<enable>true</enable>
 			<upgrades>
 				<id>1</id>
 				<type>static</type>
 				<label>Wargear</label>
 				<counterManager>
 					<type>static</type>
-					<minCount>1</minCount>
+					<minCount>0</minCount>
 					<maxCount>1</maxCount>
 				</counterManager>
 				<stuff>
@@ -24201,15 +24201,15 @@
 					<quantity>1</quantity>
 					<cost>1</cost>
 					<value>1</value>
-					<available>false</available>
+					<available>true</available>
 					<groupElements />
 					<counterManager>
 						<type>static</type>
-						<minCount>1</minCount>
+						<minCount>0</minCount>
 						<maxCount>1</maxCount>
 					</counterManager>
 				</stuff>
-				<available>false</available>
+				<available>true</available>
 			</upgrades>
 		</models>
 	</units>
