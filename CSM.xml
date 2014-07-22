@@ -24159,4 +24159,58 @@
 			</upgrades>
 		</models>
 	</units>
+	<units>
+		<id>80</id>
+		<role>hq</role>
+		<name>Ruslan Test</name>
+		<armyCode>CSM</armyCode>
+		<IAFlag>false</IAFlag>
+		<models>
+			<id>1</id>
+			<type>infantry</type>
+			<name>Ruslan</name>
+			<count>1</count>
+			<minCount>1</minCount>
+			<maxCount>1</maxCount>
+			<cost>100</cost>
+			<WS>1</WS>
+			<BS>1</BS>
+			<S>1</S>
+			<T>1</T>
+			<W>1</W>
+			<At>1</At>
+			<In>1</In>
+			<Ld>1</Ld>
+			<save>2</save>
+			<invSave />
+			<modelType />
+			<enable>false</enable>
+			<upgrades>
+				<id>1</id>
+				<type>static</type>
+				<label>Wargear</label>
+				<counterManager>
+					<type>static</type>
+					<minCount>1</minCount>
+					<maxCount>1</maxCount>
+				</counterManager>
+				<stuff>
+					<id>1</id>
+					<name>Computer</name>
+					<display>checkbox</display>
+					<quantity>1</quantity>
+					<cost>1</cost>
+					<value>1</value>
+					<available>false</available>
+					<groupElements />
+					<counterManager>
+						<type>static</type>
+						<minCount>1</minCount>
+						<maxCount>1</maxCount>
+					</counterManager>
+				</stuff>
+				<available>false</available>
+			</upgrades>
+		</models>
+	</units>
 </army>
