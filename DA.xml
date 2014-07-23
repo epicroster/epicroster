@@ -320,7 +320,7 @@
 					<available>true</available>
 					<display>checkbox</display>
 					<name>Heavy Bolter</name>
-					<cost>0</cost>
+					<cost>10</cost>
 					<conditions>
 						<id>1</id>
 						<modelId>1</modelId>
@@ -622,7 +622,7 @@
 					</conditions>
 					<display>checkbox</display>
 					<name>Flamer</name>
-					<cost>0</cost>
+					<cost>5</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -17118,7 +17118,7 @@
 		</models>
 	</units>
 	<units>
-		<id>39</id>
+		<id>40</id>
 		<role>fast</role>
 		<armyCode>DA</armyCode>
 		<name>Assault squad</name>
