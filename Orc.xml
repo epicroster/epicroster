@@ -6954,8 +6954,8 @@
 			<type>infantry</type>
 			<cost>40</cost>
 			<count>2</count>
-			<minCount>2</minCount>
-			<maxCount>9</maxCount>
+			<minCount>1</minCount>
+			<maxCount>1</maxCount>
 			<WS>4</WS>
 			<BS>2</BS>
 			<S>4</S>
