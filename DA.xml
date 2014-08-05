@@ -6906,7 +6906,7 @@
 					</counterManager>
 				</stuff>
 				<stuff>
-					<id>1</id>
+					<id>2</id>
 					<quantity>1</quantity>
 					<available>true</available>
 					<display>checkbox</display>
@@ -6919,7 +6919,7 @@
 					</counterManager>
 				</stuff>
 				<stuff>
-					<id>2</id>
+					<id>3</id>
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
