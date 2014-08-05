@@ -6819,11 +6819,11 @@
 		<models>
 			<id>2</id>
 			<role>troops</role>
-			<name>Ravenwing Sergeant</name>
+			<name>Ravenwing Huntmaster</name>
 			<enable>true</enable>
 			<type>infantry</type>
 			<modelType>Bk(Ch)</modelType>
-			<cost>26</cost>
+			<cost>42</cost>
 			<count>1</count>
 			<minCount>1</minCount>
 			<maxCount>1</maxCount>
@@ -6833,8 +6833,8 @@
 			<T>5</T>
 			<W>1</W>
 			<In>4</In>
-			<At>1</At>
-			<Ld>8</Ld>
+			<At>2</At>
+			<Ld>9</Ld>
 			<save>3</save>
 			<specialRules>
 				<name>And They Shall Know no fear</name>
@@ -6886,12 +6886,25 @@
 				<id>2</id>
 				<counterManager>
 					<type>static</type>
-					<maxCount>1</maxCount>
-					<minCount>0</minCount>
+					<maxCount>2</maxCount>
+					<minCount>2</minCount>
 				</counterManager>
 				<available>true</available>
 				<type>static</type>
 				<label>Weapons</label>
+				<stuff>
+					<id>1</id>
+					<quantity>1</quantity>
+					<available>false</available>
+					<display>checkbox</display>
+					<name>Bolt Pistol</name>
+					<cost>0</cost>
+					<counterManager>
+						<type>static</type>
+						<maxCount>1</maxCount>
+						<minCount>1</minCount>
+					</counterManager>
+				</stuff>
 				<stuff>
 					<id>1</id>
 					<quantity>1</quantity>
