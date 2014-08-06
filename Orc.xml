@@ -6574,9 +6574,8 @@
 					<quantity>2</quantity>
 					<display>multi</display>
 					<available>true</available>
-					<name>Twin-linked Shoota</name>
+					<name>Power Klaw</name>
 					<cost>0</cost>
-					<groupElements>2,3</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
@@ -6624,12 +6623,12 @@
 				</stuff>
 				<stuff>
 					<id>2</id>
-					<quantity>0</quantity>
+					<quantity>2</quantity>
 					<display>multi</display>
 					<available>true</available>
-					<name>Shoota/Rokkit kombi-weapon</name>
-					<cost>5</cost>
-					<groupElements>1,3</groupElements>
+					<name>Twin-linked Shoota</name>
+					<cost>0</cost>
+					<groupElements>3,4</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
@@ -6680,9 +6679,9 @@
 					<quantity>0</quantity>
 					<display>multi</display>
 					<available>true</available>
-					<name>Shoota/Skorcha kombi-weapon</name>
+					<name>Shoota/Rokkit kombi-weapon</name>
 					<cost>5</cost>
-					<groupElements>1,2</groupElements>
+					<groupElements>2,4</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
@@ -6730,11 +6729,12 @@
 				</stuff>
 				<stuff>
 					<id>4</id>
-					<quantity>2</quantity>
+					<quantity>0</quantity>
 					<display>multi</display>
 					<available>true</available>
-					<name>Power Klaw</name>
-					<cost>0</cost>
+					<name>Shoota/Skorcha kombi-weapon</name>
+					<cost>5</cost>
+					<groupElements>2,3</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
