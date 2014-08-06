@@ -6628,7 +6628,7 @@
 					<available>true</available>
 					<name>Twin-linked Shoota</name>
 					<cost>0</cost>
-<!--					<groupElements>3,4</groupElements>-->
+					<groupElements>3,4</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
@@ -6681,7 +6681,7 @@
 					<available>true</available>
 					<name>Shoota/Rokkit kombi-weapon</name>
 					<cost>5</cost>
-<!--					<groupElements>2,4</groupElements>-->
+					<groupElements>2,4</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
@@ -6734,7 +6734,7 @@
 					<available>true</available>
 					<name>Shoota/Skorcha kombi-weapon</name>
 					<cost>5</cost>
-<!--					<groupElements>2,3</groupElements>-->
+					<groupElements>2,3</groupElements>
 					<counterManager>
 						<type>dependOnModelCount</type>
 						<modelId>1</modelId>
