@@ -9814,4 +9814,501 @@
 		<smallDesc>Commander Longstrike</smallDesc>
 		<type>stat</type>
 	</descriptions>
+	
+		<descriptions>
+			<description>R:96&amp;quot S:9 AP:2, Heavy 1, Interceptor, Skyfire</description>
+			<name>Icarus Lascannon</name>
+			<smallDesc>Icarus Lascannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:48&amp;quot S:7 AP:4, Heavy 4, Interceptor, Twin-linked, Skyfire S:7 AP:4, Heavy 4, Interceptor, Twin-linked, Skyfire</description>
+			<name>Quad-gun</name>
+			<smallDesc>Quad-gun</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:48&amp;quot S:9 AP:2, Heavy 2, Twin-linked</description>
+			<name>Quad Icarus Lascannon</name>
+			<smallDesc>Quad Icarus Lascannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:96&amp;quot S:9 AP:2, Heavy 1, Interceptor, Skyfire</description>
+			<name>Twin linked Icarus Lascannon</name>
+			<smallDesc>Twin linked Icarus Lascannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>24&amp;quot R S:5 AP:4, Rapid Fire, Gauss</description>
+			<name>Gauss Blaster</name>
+			<smallDesc>Gauss Blaster</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>36&amp;quot R S:9 AP:2, Assault 1, Gauss, Twin-linked</description>
+			<name>Twin-linked Heavy Gauss Cannon</name>
+			<smallDesc>Twin-linked Heavy Gauss Cannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+			</changes>
+			<description>S:+2 AP:2, Melee, Two-handed</description>
+			<name>Executioner</name>
+			<smallDesc>Executioner</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>S:U AP:3, Melee, Master-crafted</description>
+			<name>Two Mirrorswords</name>
+			<smallDesc>Two Mirrorswords</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>48&amp;quot R S:8 AP:2, Heavy 2</description>
+			<name>Pulse Laser</name>
+			<smallDesc>Pulse Laser</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:48&amp;quot S:7 AP:4, Heavy 1, Skyfire</description>
+			<name>Eldar Missile Launcher With Flakk Missile</name>
+			<smallDesc>Eldar Missile Launcher With FM</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>(Bio-artefact); S:U AP:5, Melee, Assimilate, Rending; Assimilate: If this weapon’s close combat attacks cause an enemy model to be removed as a casualty, the model equipped with the Maw-claws of Thyrax gains the Preferred Enemy special rule against all units chosen from the same codex as the model removed as a casualty.</description>
+			<name>The Maw-claws of Thyrax</name>
+			<smallDesc>The Maw-claws of Thyrax</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>(Bio-artefact); [Miasmic Spit: R:36&amp;quot S:1 AP:4 Assault 1, Blast, Poisoned (2+)]; [Miasmic Spray: Template S:1 AP:4 Assault 1, Poisoned (2+)]</description>
+			<name>The Miasma Cannon</name>
+			<smallDesc>The Miasma Cannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>1</value>
+				</descriptions>
+			</changes>
+			<description>(Bio-artefact); S:+1 AP:3, Melee, Life Drain, Shred, Swiftstrike; Life Drain: Any To Wound roll of a 6 made by this weapon has the Instant Death special rule.; Swiftstrike: A model attacking with this weapon has a +3 bonus to its Initiative during the Fight sub-phase.</description>
+			<name>The Reaper Of Obliterax</name>
+			<smallDesc>The Reaper Of Obliterax</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>(Bio-artefact); A model with the Norn Crown adds 6&amp;quot to its synapse range.</description>
+			<name>The Norn Crown</name>
+			<smallDesc>The Norn Crown</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>(Bio-artefact); At the start of every Assault phase, a model with the Ymgarl Factor must alter their form into one of the three listed below. The bonus gained lasts until the end of the phase. The same form cannot be chosen in two consecutive turns.; Slashing Claws: The model has +1 Strength.; Tentacled Limbs: The model has +1 Attack.; Protective Carapace: The model’s armour save is improved by 1.</description>
+			<name>The Ymgarl Factor</name>
+			<smallDesc>The Ymgarl Factor</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Tail Biomorph; S:6 AP:5 Melee</description>
+			<name>Prehensile Pincer</name>
+			<smallDesc>Prehensile Pincer</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>S:U AP:2, Melee, Blade Parry, Instant Death; Blade Parry: The Swarmlord has a 4+ invulnerable save against Wounds caused by Melee weapons.</description>
+			<name>Pair Of Bone Sabres</name>
+			<smallDesc>Pair Of Bone Sabres</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Tail Biomorph; S:4 AP:4 Melee, Rending</description>
+			<name>Thresher scythe</name>
+			<smallDesc>Thresher scythe</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Template S:2 AP:- Assault 1, Pinning</description>
+			<name>Strangleweb</name>
+			<smallDesc>Strangleweb</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>18&amp;quot R S:5 AP:5, Assault 1, Blast, Haywire</description>
+			<name>Shockcannon</name>
+			<smallDesc>Shockcannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:12&amp;quot S:6 AP:2 Assault 1, Gulp!; Gulp!: A To Hit roll of a 6 made with this weapon results in a Precision Shot</description>
+			<name>Grasping Tongue</name>
+			<smallDesc>Grasping Tongue</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>[Wargear]: Scything Talons (x2), Prehensile Pinser; [Special Rules]: Deep Strike, Instinctive Behaviour (Feed), Swallow Whole, Very Bulky</description>
+			<name>The Red Terror</name>
+			<smallDesc>The Red Terror</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>In close combat, a model with this biomorph can exchange all of its normal Attacks to make a single blinding venom attack, which uses the following profile:; S:3 AP:- Melee, Blind, Poisoned (6+)</description>
+			<name>Blinding Venom</name>
+			<smallDesc>Blinding Venom</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Template S:6 AP:4 Assault 1</description>
+			<name>Drool cannon</name>
+			<smallDesc>Drool cannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:36&amp;quot S:5 AP:5 Assault 1, Haywire, Seeking, One Use Only; Seeking: If a model makes a shooting attack with this weapon against either a Zooming Flyer or a Swooping Flying Monstrous Creatures, it re-rolls failed To Hit rolls made with this weapon.</description>
+			<name>Four tentaclids</name>
+			<smallDesc>Four tentaclids</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Models equipped with Spine Banks don’t suffer the penalty to their Initiative for charging enemies through difficult terrain but fight at their normal Initiative. In addition, they can each be fired as a ranged weapon.; R:8&amp;quot S:3 AP:- Assault 1, Blast</description>
+			<name>Spine banks</name>
+			<smallDesc>Spine banks</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>multiply</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+				<descriptions>
+					<operation>equal</operation>
+					<statName>In</statName>
+					<value>1</value>
+				</descriptions>
+			</changes>
+			<description>Tail Biomorph; S:8 AP:- Melee, Unwieldy</description>
+			<name>Bone mace</name>
+			<smallDesc>Bone mace</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>Tail Biomorph; S:1 AP:6 Melee, Poisoned (2+)</description>
+			<name>Toxinspike</name>
+			<smallDesc>Toxinspike</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>[Blast: R:24&amp;quot S:7 AP:2 Assault 1, Large Blast]; [Streams: R:24&amp;quot S:7 AP:2 Assault 6]</description>
+			<name>Bio-plasmic cannon</name>
+			<smallDesc>Bio-plasmic cannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>[Sypher's Bolt Pistol: R16&amp;quot S:4 AP:5 Pistol]; [Sypher's Plasma Pistol: R12&amp;quot S:7 AP:2 Pistol]</description>
+			<name>Cyphers Pistols</name>
+			<smallDesc>Cyphers Pistols</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Cypher’s sword grants him the Eternal Warrior and Shrouded special rules.</description>
+			<name>Cyphers Sword</name>
+			<smallDesc>Cyphers Sword</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+			</changes>
+			<description>S:+2 AP:3, Melee, Master-crafted; Template S:5 AP:4, Assault 1</description>
+			<name>The Ardent Blade</name>
+			<smallDesc>The Ardent Blade</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>The Armour of Saint Katherine confers Saint Celestine a 2+ Armour Save and a 4+ invulnerable save.</description>
+			<name>Armour Of Saint Katherine</name>
+			<smallDesc>Armour Of Saint Katherine</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>24&amp;quot R S:4 AP:4, Assault 2</description>
+			<name>The Redeemer</name>
+			<smallDesc>The Redeemer</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Friendly models within 12&amp;quot of Uriah Jacobus have the Fearless and Counter-attack special rules whilst he is alive.</description>
+			<name>The Banner Of Sanctity</name>
+			<smallDesc>The Banner Of Sanctity</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>All friendly units within 12&amp;quot of the bearer automatically pass any Fear or Regroup tests they are required to take.</description>
+			<name>The Book Of St.Lucius</name>
+			<smallDesc>The Book Of St.Lucius</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The bearer, the bearer’s unit and any Independent Character that has joined the bearer’s unit automatically pass any Leadership test required when attempting to use either an Act of Faith or a War Hymn.</description>
+			<name>The Litanies Of Faith</name>
+			<smallDesc>The Litanies Of Faith</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The wearer of the Cloak of St. Aspira re-rolls all failed armour saving throws and Shield of Faith invulnerable saving throws.</description>
+			<name>The Cloak Of St. Aspira</name>
+			<smallDesc>The Cloak Of St. Aspira</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The wearer of the Mantle of Ophelia has the Eternal Warrior special rule.</description>
+			<name>The Mantle Of Ophelia</name>
+			<smallDesc>The Mantle Of Ophelia</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+			</changes>
+			<description>S:+2 AP:3, Melee, Master-crafted</description>
+			<name>The Blade Of Admonitio</name>
+			<smallDesc>The Blade Of Admonitio</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>Immolator</description>
+			<name>Immolator</name>
+			<showDesc>false</showDesc>
+			<smallDesc>Immolator</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>All friendly units within 12&amp;quot of a model with a laud hailer re-roll failed Leadership tests when attempting an Act of Faith.</description>
+			<name>Laud Hailer</name>
+			<smallDesc>Laud Hailer</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+			</changes>
+			<description>(Ecclesiarchy Relic); S:+2 AP:4, Melee, Chaos Bane, Concussive, Master-crafted; Chaos Bane: The Mace of Valaan gains the Fleshbane and Armourbane special rules when the wielder is within 6&amp;quot of one or more models with the Daemon special rule.</description>
+			<name>The Mace Of Valaan</name>
+			<smallDesc>The Mace Of Valaan</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>[Wargear]: Bolt Pistol, Frag Grenades, Krak Grenades, Chirurheon's tools[Special Rules]: Acts of Faith, Shield of Faith, Stubbor; [Act of Faith]: Endless Crusade</description>
+			<name>Hospitaller</name>
+			<smallDesc>Hospitaller</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>[Wargear]: Bolt Pistol, Frag Grenades, Krak Grenades, Laud Hailer[Special Rules]: Acts of Faith, Shield of Faith, Stubbor; [Act of Faith]: Endless Crusade</description>
+			<name>Dialogus</name>
+			<smallDesc>Dialogus</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>24&amp;quot R S:4 AP:5, Rapid Fire. Can fire instead once per game with:; 24&amp;quot R S:5 AP:-, Asssault 1, Psi-shock; Psi-shock: Any unit with the Pskyer, Brotherhood of Psykers or Psychic Pilot special rules that is hit by a weapon with this special rule suffers the Perils of the Warp in addition to any other damage.</description>
+			<name>Condemnor Bolter</name>
+			<smallDesc>Condemnor Bolter</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Friendly units within 12&amp;quot of the bearer re-roll failed Morale, Fear and Pinning tests.</description>
+			<name>Blessed Standard</name>
+			<smallDesc>Blessed Standard</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>All friendly units within 12&amp;quot of the bearer have +1 Attack and re-roll failed Morale, Fear and Pinning tests.</description>
+			<name>Sacred Banner Of The Order Militant</name>
+			<smallDesc>Sacred Banner Of The Order Militant</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>A unit with a Simulacrum Imperialis can attempt to use its Act of Faith twice during a battle instead of just once, regardless of whether or not the first attempt resulted in a passed or failed Leadership test. Note, however, that a unit can still only attempt to use one Act of Faith in the same phase. Also note that only the unit’s Act of Faith can be attempted twice, not that of any Independent Characters that have joined the unit.; If a model with the Simulacrum Imperialis is removed as a casualty, its unit cannot attempt to use their Act of Faith for the rest of the battle (but any Independent Characters that have joined the unit that can use an Act of Faith can still attempt to do so).</description>
+			<name>Simulacrum Imperialis</name>
+			<smallDesc>Simulacrum Imperialis</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>As long as the Sister Hospitalier is alive, her unit has the Feel No Pain special rule.</description>
+			<name>Chirurgeon's Tools</name>
+			<smallDesc>Chirurgeon's Tools</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>S:U AP:3, Melee, Neural Shock, Specialist Weapon; Neural Shock: Against non-vehicle units with a Leadership of 8 or less, a Neural Whip has the Shred special rule. If there are different Leadership values in the target unit, use the majority value.</description>
+			<name>Neural Whip</name>
+			<smallDesc>Neural Whip</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>[Wargear]: Frag Grenades, Krak Grenades;[Special Rules]: Acts of Faith, Angelic Visage, Hit and Run, Shield of Faith; [Act of Faith]: The Emperor's Deliverance</description>
+			<name>Seraphim Superior</name>
+			<smallDesc>Seraphim Superior</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>Template S:4 AP:5, Assault 1</description>
+			<name>Two Hand Flamers</name>
+			<smallDesc>Two Hand Flamers</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>6&amp;quot R S:8 AP:1, Pistol, Melta</description>
+			<name>Two Inferno Pistols</name>
+			<smallDesc>Two Inferno Pistols</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>48&amp;quot R S:8 AP:1, Heavy D6</description>
+			<name>Exorcist Missile Launcher</name>
+			<smallDesc>Exorcist Missile Launcher</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>multiply</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+				<descriptions>
+					<operation>equal</operation>
+					<statName>In</statName>
+					<value>1</value>
+				</descriptions>
+			</changes>
+			<description>S:x2 AP:2, Melee, Specialist Weapon, Unwieldy</description>
+			<name>Power Claw</name>
+			<smallDesc>Power Claw</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>R:12&amp;quot S:3 AP:-, Pistol</description>
+			<name>Laspistol and CCW</name>
+			<smallDesc>Laspistol and CCW</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>1</value>
+				</descriptions>
+			</changes>
+			<description>S:+1 AP:3, Melee, Master-crafted</description>
+			<name>The Blade of Conquest</name>
+			<smallDesc>The Blade of Conquest</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>A model with camo gear counts its cover save as being 1 point better than normal. Note that this means it always has a cover save of at least 6+, even in the open.</description>
+			<name>Camo Gear</name>
+			<smallDesc>Camo Gear</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>equal</operation>
+					<statName>invSave</statName>
+					<value>4</value>
+				</descriptions>
+			</changes>
+			<description>The bearer of the Deathmask of Ollanius gains a 4+ invulnerable save, and has the It Will Not Die and Fear special rules.</description>
+			<name>The Deathmask of Ollanius</name>
+			<smallDesc>The Deathmask of Ollanius</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>Whenever a friendly unit from Codex: Astra Militarum within 6&amp;quot of the bearer is required to take a Morale check, the bearer of the Laurels may choose whether they pass or fail. However, if the model with the Laurels is removed as a casualty, all friendly units from Codex: Astra Militarum within 6&amp;quot must take an immediate Pinning test.</description>
+			<name>The Laurels of Command</name>
+			<smallDesc>The Laurels of Command</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>When rolling Leadership tests for orders issued by an officer with the Tactical Auto-Reliquary, any successful Leadership test that results in a double will count as Inspired Tactics. However, if you roll a double 1 while using the Tactical Auto-Reliquary, you still benefit from Inspired Tactics, though the officer has ‘accidentally’ shut the device out of the vox network – it may no longer be used this game.</description>
+			<name>The Tactical Auto-Reliquary of Tyberius</name>
+			<smallDesc>The Tactical Auto-Reliquary of Tyberius</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The officer, and all friendly units from Codex: Astra Militarum within 6&amp;quot, have the Preferred Enemy special rule. In addition, the bearer may re-roll a single failed Leadership test per turn.</description>
+			<name>Kurov’s Aquila</name>
+			<smallDesc>Kurov’s Aquila</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:36&amp;quot S:6 AP:6, Heavy 3</description>
+			<name>Milti-laser</name>
+			<smallDesc>Milti-laser</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>A vehicle with the relic plating upgrade has the Adamantium Will special rule.</description>
+			<name>Relic plating</name>
+			<smallDesc>Relic plating</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>If a vehicle with recovery gear is Immobilised, then in subsequent turns it may attempt to repair itself. To make the attempt, roll a D6 at the end of the Movement phase; on the roll of a 6, the vehicle is no longer Immobilised. Note that this does not restore a Hull Point.The first time an enemy unit attempts to charge a vehicle with fire barrels, that unit suffers D6 Strength 4 AP5 hits. These hits are Randomly Allocated.</description>
+			<name>Recovery Gear</name>
+			<smallDesc />
+		</descriptions>
+		<descriptions>
+			<description>If you attempt to bring a unit on from reserve using Deep Strike, and the location chosen for its deployment is within 6&amp;quot of a vehicle with an augur array, that unit does not scatter. The augur array must have been on the battlefield at the start of the turn in order for it to be used.</description>
+			<name>Augur Array</name>
+			<smallDesc>Augur Array</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:12&amp;quot S:5 AP:4, Pistol, Precision Shot, Master-crafted</description>
+			<name>The Emperor's Benediction</name>
+			<smallDesc>The Emperor's Benediction</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The squad replaces its flak armour with carapace armour</description>
+			<name>Grenadiers</name>
+			<smallDesc>Grenadiers</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The squad has camo gear and snare mines</description>
+			<name>Forward Sentries</name>
+			<smallDesc>Forward Sentries</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>The entire squad has melta bombs. One Veteran carries a demolition charge in addition to his other equipment</description>
+			<name>Demolitions</name>
+			<smallDesc>Demolitions</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>[Grenadier Gauntlet]: R:12&amp;quot S:4 AP:6, Assault 1, Blast; [Slabshield]: If a model with a slabshield is in base contact with one or more models with a slabshield from the same unit, it adds +1 to its Armour Save. Furthermore, if a target (friend or foe) is partially obscured from the firer’s view by at least one model with a slabshield, it receives +1 to its cover save.</description>
+			<name>Grenadier Gauntlet, Slabshield</name>
+			<smallDesc>Grenadier Gauntlet, Slabshield</smallDesc>
+		</descriptions>
+		<descriptions>
+			<changes>
+				<descriptions>
+					<operation>plus</operation>
+					<statName>S</statName>
+					<value>2</value>
+				</descriptions>
+			</changes>
+			<description>[Power Maul]:S:+2 AP:4, Melee, Concussive; [Bruteshield]: A brute shield confers a 5+ invulnerable save. In addition, a model with a brute shield re-rolls failed To Wound rolls when resolving Hammer of Wrath hits.</description>
+			<name>Power Maul, Brute Shield</name>
+			<smallDesc>Power Maul, Brute Shield</smallDesc>
+			<type>stat</type>
+		</descriptions>
+		<descriptions>
+			<description>R:24&amp;quot S:4 AP:3 Salvo 2/4</description>
+			<name>Hot-shot Volley Gun</name>
+			<smallDesc>Hot-shot Volley Gun</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:48&amp;quot S:7 AP:4, Heavy 1, Blast</description>
+			<name>Taurox Battle Cannon</name>
+			<smallDesc>Taurox Battle Cannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:24&amp;quot S:4 AP:-, Heavy 10, Twin-linked</description>
+			<name>Twin-linked Taurox Gatling Cannon</name>
+			<smallDesc>Twin-linked Taurox Gatling Cannon</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:48&amp;quot S:8 AP:3, Heavy 2; OR; R:48&amp;quot S:4 AP:6, Heavy 2, Blast</description>
+			<name>Taurox Missile Launcher</name>
+			<smallDesc>Taurox Missile Launcher</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>R:24&amp;quot S:4 AP:3 Salvo 2/4, Gets Hot, Twin-linked</description>
+			<name>Twin-linked hot-shot Volley Gun</name>
+			<smallDesc>Twin-linked hot-shot Volley Gun</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>When the bearer of the Grimoire of True Names is fighting a challenge against a model with the Daemon special rule, his opponent suffers a -5 penalty to his Weapon Skill, Initiative and Leadership characteristics (to a minimum of 1).</description>
+			<name>The Grimoire Of True Name</name>
+			<smallDesc>The Grimoire Of True Name</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>At the start of any friendly turn, the bearer can take a Leadership test. If the test is failed, nothing happens, but if the test if passed, choose one of the special rules from the list below. The bearer of the Liber Heresius, and his unit, gain that special rule until the start of their next turn. The same special rule cannot be gained in this way more than once per game – you must choose a different special rule each time.; Scouts (Instead of being made at the start of a friendly turn, the Leadership test to use this special rule is made after deployment, but before the first turn begins.); Split-fire; Counter-attack; Fear; Hatred</description>
+			<name>The Liber Heresicus</name>
+			<smallDesc>The Liber Heresicus</smallDesc>
+		</descriptions>
+		<descriptions>
+			<description>If your opponent’s army contains any detachments chosen from any of the codexes shown in the table below, the bearer of the Tome of Vethric gains the corresponding special rule.; Dark Eldar - Night Vision; Eldar - Split Fire; Orks - Counter-attack; Necrons - Tank Hunter; Tau Empire - Furious Charge; Tyranids - Monster Hunter</description>
+			<name>The Tome Of Vethric</name>
+			<smallDesc>The Tome Of Vethric</smallDesc>
+		</descriptions>
 </list>

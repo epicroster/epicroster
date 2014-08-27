@@ -145,6 +145,7 @@
 			<At>5</At>
 			<Ld>10</Ld>
 			<save>2</save>
+			<invSave>4</invSave>
 			<specialRules>
 				<name>Independent Character</name>
 			</specialRules>
