@@ -558,7 +558,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -1009,7 +1009,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -1964,7 +1964,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -2276,7 +2276,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -2966,7 +2966,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -3215,7 +3215,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -3875,7 +3875,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -4326,7 +4326,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -8247,7 +8247,7 @@
 					<quantity>0</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Digital Weapons</name>
+					<name>Digital Weapon</name>
 					<cost>10</cost>
 					<counterManager>
 						<type>static</type>
@@ -10036,7 +10036,7 @@
 					<quantity>1</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Muti-melta</name>
+					<name>Multi-melta</name>
 					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
@@ -10448,7 +10448,7 @@
 					<quantity>1</quantity>
 					<available>true</available>
 					<display>checkbox</display>
-					<name>Muti-melta</name>
+					<name>Multi-melta</name>
 					<cost>0</cost>
 					<conditions>
 						<id>1</id>
