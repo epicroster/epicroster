@@ -11034,7 +11034,7 @@
 					<display>checkbox</display>
 					<available>false</available>
 					<name>Heavy Flamer</name>
-					<cost>10</cost>
+					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
