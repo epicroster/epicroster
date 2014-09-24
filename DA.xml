@@ -157,7 +157,7 @@
 				<available>true</available>
 				<name>Razorback</name>
 				<modelId>7</modelId>
-				<cost>50</cost>
+				<cost>55</cost>
 				<display>checkbox</display>
 				<counterManager>
 					<type>static</type>
@@ -970,7 +970,7 @@
 			<name>Razorback</name>
 			<enable>false</enable>
 			<type>machine</type>
-			<cost>50</cost>
+			<cost>55</cost>
 			<count>1</count>
 			<minCount>1</minCount>
 			<maxCount>1</maxCount>
@@ -1008,7 +1008,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Asault Cannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -1021,7 +1021,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Heavy Flamer</name>
-					<cost>25</cost>
+					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -1034,7 +1034,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Lascannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -1047,7 +1047,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Lascannon and Twin Plasma gun</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -2098,7 +2098,7 @@
 				<available>true</available>
 				<name>Razorback</name>
 				<modelId>7</modelId>
-				<cost>50</cost>
+				<cost>55</cost>
 				<display>checkbox</display>
 				<counterManager>
 					<type>static</type>
@@ -3257,7 +3257,7 @@
 			<name>Razorback</name>
 			<enable>false</enable>
 			<type>machine</type>
-			<cost>50</cost>
+			<cost>55</cost>
 			<count>1</count>
 			<minCount>1</minCount>
 			<maxCount>1</maxCount>
@@ -3295,7 +3295,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Asault Cannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -3308,7 +3308,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Heavy Flamer</name>
-					<cost>25</cost>
+					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -3321,7 +3321,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Lascannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -3334,7 +3334,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Lascannon and Twin Plasma gun</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -7239,7 +7239,7 @@
 				<available>true</available>
 				<name>Razorback</name>
 				<modelId>7</modelId>
-				<cost>50</cost>
+				<cost>55</cost>
 				<display>checkbox</display>
 				<counterManager>
 					<type>static</type>
@@ -7868,7 +7868,7 @@
 			<name>Razorback</name>
 			<enable>false</enable>
 			<type>machine</type>
-			<cost>50</cost>
+			<cost>55</cost>
 			<count>1</count>
 			<minCount>1</minCount>
 			<maxCount>1</maxCount>
@@ -7906,7 +7906,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Asault Cannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -7919,7 +7919,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Heavy Flamer</name>
-					<cost>25</cost>
+					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -7932,7 +7932,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Lascannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -7945,7 +7945,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Lascannon and Twin Plasma gun</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -14506,7 +14506,7 @@
 				<available>true</available>
 				<name>Razorback</name>
 				<modelId>7</modelId>
-				<cost>50</cost>
+				<cost>55</cost>
 				<display>checkbox</display>
 				<counterManager>
 					<type>static</type>
@@ -15513,7 +15513,7 @@
 			<name>Razorback</name>
 			<enable>false</enable>
 			<type>machine</type>
-			<cost>50</cost>
+			<cost>55</cost>
 			<count>1</count>
 			<minCount>1</minCount>
 			<maxCount>1</maxCount>
@@ -15551,7 +15551,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Asault Cannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -15564,7 +15564,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Heavy Flamer</name>
-					<cost>25</cost>
+					<cost>0</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -15577,7 +15577,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Twin-linked Lascannon</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
@@ -15590,7 +15590,7 @@
 					<display>checkbox</display>
 					<available>true</available>
 					<name>Lascannon and Twin Plasma gun</name>
-					<cost>35</cost>
+					<cost>20</cost>
 					<counterManager>
 						<type>static</type>
 						<maxCount>1</maxCount>
