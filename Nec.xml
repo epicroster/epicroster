@@ -3208,7 +3208,7 @@
 				<name>Ghost Ark</name>
 				<display>checkbox</display>
 				<modelId>11</modelId>
-				<cost>0</cost>
+				<cost>115</cost>
 				<counterManager>
 					<type>static</type>
 					<maxCount>1</maxCount>
@@ -3222,7 +3222,7 @@
 				<name>Night Scythe</name>
 				<display>checkbox</display>
 				<modelId>12</modelId>
-				<cost>0</cost>
+				<cost>100</cost>
 				<counterManager>
 					<type>static</type>
 					<maxCount>1</maxCount>
@@ -3408,7 +3408,7 @@
 				<name>Night Scythe</name>
 				<display>checkbox</display>
 				<modelId>12</modelId>
-				<cost>0</cost>
+				<cost>100</cost>
 				<counterManager>
 					<type>static</type>
 					<maxCount>1</maxCount>
@@ -3548,7 +3548,7 @@
 				<name>Night Scythe</name>
 				<display>checkbox</display>
 				<modelId>12</modelId>
-				<cost>0</cost>
+				<cost>100</cost>
 				<counterManager>
 					<type>static</type>
 					<maxCount>1</maxCount>
@@ -3684,7 +3684,7 @@
 				<name>Night Scythe</name>
 				<display>checkbox</display>
 				<modelId>12</modelId>
-				<cost>0</cost>
+				<cost>100</cost>
 				<counterManager>
 					<type>static</type>
 					<maxCount>1</maxCount>
